@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-11T10:02:58.774Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" etag="Dhyzzaj0usJCf4ueh8sW" version="12.6.7" type="github">
+<mxfile host="www.draw.io" modified="2020-02-11T13:57:59.872Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" etag="g2WT84l3gZ4l58xGJcqA" version="12.6.7" type="github">
   <diagram id="16LOW9_O5XdFRjd764Fx" name="Page-1">
-    <mxGraphModel dx="1006" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1246" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -19,7 +19,7 @@
         <mxCell id="X9IBLPpV73snO4w4Nbqg-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="50" width="530" height="300" as="geometry"/>
         </mxCell>
-        <mxCell id="X9IBLPpV73snO4w4Nbqg-5" value="Bridge Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X9IBLPpV73snO4w4Nbqg-5" value="Bridge Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="490" y="110" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="X9IBLPpV73snO4w4Nbqg-6" value="" style="endArrow=classic;html=1;entryX=-0.033;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="X9IBLPpV73snO4w4Nbqg-5">
@@ -28,13 +28,13 @@
             <mxPoint x="420" y="130" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="X9IBLPpV73snO4w4Nbqg-7" value="File Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X9IBLPpV73snO4w4Nbqg-7" value="File Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="650" y="110" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="X9IBLPpV73snO4w4Nbqg-9" value="Data Lake" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="220" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="X9IBLPpV73snO4w4Nbqg-10" value="Database Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X9IBLPpV73snO4w4Nbqg-10" value="Database Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="810" y="110" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="X9IBLPpV73snO4w4Nbqg-11" value="Cockroach Database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -73,9 +73,6 @@
             <mxPoint x="650" y="230" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="X9IBLPpV73snO4w4Nbqg-26" value="1. No clear definition of done. =&amp;gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="440" width="300" height="250" as="geometry"/>
-        </mxCell>
         <mxCell id="X9IBLPpV73snO4w4Nbqg-30" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="795" y="333" as="sourcePoint"/>
@@ -84,6 +81,9 @@
         </mxCell>
         <mxCell id="X9IBLPpV73snO4w4Nbqg-32" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="750" y="330" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="X9IBLPpV73snO4w4Nbqg-35" value="Uploads configuration file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="350" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
