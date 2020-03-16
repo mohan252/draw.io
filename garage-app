@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-16T15:44:42.389Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Mu9NI815tPk07cr4diHU" version="12.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-16T15:45:36.899Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Eub2aEUOZ9bn3aURpmLy" version="12.8.5" type="github">
   <diagram id="uiIoy89890bu0BetlW8u" name="Page-1">
     <mxGraphModel dx="1006" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -243,13 +243,13 @@
           <mxGeometry x="30" y="70" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2b-c2Vr7NQMeBaJu338B-111" value="Activate" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-158">
-          <mxGeometry x="25" y="120" width="150" height="50" as="geometry" />
+          <mxGeometry x="20" y="110" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2b-c2Vr7NQMeBaJu338B-112" value="Garage Door Open for 5 minutes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-158">
-          <mxGeometry x="30" y="190" width="130" height="40" as="geometry" />
+          <mxGeometry x="25" y="180" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2b-c2Vr7NQMeBaJu338B-113" value="Garage Door Closed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-158">
-          <mxGeometry x="30" y="250" width="130" height="40" as="geometry" />
+          <mxGeometry x="25" y="240" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
