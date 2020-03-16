@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-16T14:49:33.087Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="6x1lUaRktAqkXqEP81S1" version="12.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-16T15:10:29.562Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Dupf1hvICDFs16NDJ83O" version="12.8.5" type="github">
   <diagram id="uiIoy89890bu0BetlW8u" name="Page-1">
     <mxGraphModel dx="706" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -32,8 +32,137 @@
             <mxPoint y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2b-c2Vr7NQMeBaJu338B-40" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
-          <mxGeometry x="580" y="110" width="200" height="400" as="geometry" />
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-84" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="550" width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-85" value="" style="shape=rect;strokeColor=none;fillColor=#ffffff;gradientColor=none;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="98" y="620" width="164" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-86" value="Garage 1" style="shape=rect;strokeColor=none;fontSize=10;fontColor=#000000;resizeWidth=1;align=left;spacingTop=2;spacingLeft=5;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-85">
+          <mxGeometry width="164" height="20" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-87" value="Label" style="shape=mxgraph.ios7.misc.right;strokeColor=#666666;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=10;spacingRight=4;fontColor=#999999;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-86">
+          <mxGeometry x="1" y="0.5" width="5" height="10" relative="1" as="geometry">
+            <mxPoint x="-15" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-88" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="110" width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-89" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1000" y="110" width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-48" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-89">
+          <mxGeometry width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-49" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;strokeColor=#999999;fillColor=#ffffff;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-89">
+          <mxGeometry x="10" y="60" width="170" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-50" value="&lt;br&gt;Device needs to be &lt;br&gt;connected to Wifi.&lt;br&gt;Select the network&lt;br&gt;to be Used" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;strokeColor=#999999;fontColor=#008cff;fontSize=17;fillColor=#ffffff;resizeWidth=1;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-49">
+          <mxGeometry width="114.56521739130434" height="30" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-51" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;fontSize=17;fontColor=#666666;align=left;spacingLeft=5;resizeWidth=1;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-49">
+          <mxGeometry width="114.56521739130434" height="20" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-52" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;fontSize=17;fontColor=#666666;align=left;spacingLeft=5;resizeWidth=1;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-49">
+          <mxGeometry width="114.56521739130434" height="20" relative="1" as="geometry">
+            <mxPoint y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-53" value="My Wifi 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fontSize=17;fontColor=#666666;align=left;spacingLeft=5;fillColor=#ddeeff;strokeColor=none;resizeWidth=1;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-49">
+          <mxGeometry width="114.56521739130434" height="20" relative="1" as="geometry">
+            <mxPoint y="70" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-54" value="My Wifi 2" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;fontSize=17;fontColor=#666666;align=left;spacingLeft=5;resizeWidth=1;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-49">
+          <mxGeometry width="114.56521739130434" height="20" relative="1" as="geometry">
+            <mxPoint y="90" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-56" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;strokeColor=#999999;fillColor=#ffffff;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-49">
+          <mxGeometry x="11.082608695652173" y="66.3157894736842" width="147.82608695652172" height="169.4736842105263" as="geometry" />
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-57" value="Enter the password for &quot;My Wifi 1&quot;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;fontSize=12;fontColor=#666666;align=left;resizeWidth=1;spacingLeft=0;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-56">
+          <mxGeometry width="73.91304347826086" height="20" relative="1" as="geometry">
+            <mxPoint x="10" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-58" value="" style="shape=line;strokeColor=#ddeeff;strokeWidth=2;html=1;resizeWidth=1;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-56">
+          <mxGeometry width="133.04347826086956" height="10" relative="1" as="geometry">
+            <mxPoint x="10" y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-61" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;fontSize=12;fontColor=#666666;align=left;resizeWidth=1;spacingLeft=0;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-56">
+          <mxGeometry width="73.91304347826086" height="20" relative="1" as="geometry">
+            <mxPoint x="10" y="95" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-62" value="********" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;strokeColor=#999999;fontColor=#666666;align=left;spacingLeft=5;resizeWidth=1;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-56">
+          <mxGeometry width="110.8695652173913" height="25" relative="1" as="geometry">
+            <mxPoint x="10" y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-63" value="OK" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=5;strokeColor=none;fontColor=#ffffff;fillColor=#66bbff;fontSize=16;fontStyle=1;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-56">
+          <mxGeometry y="1" width="80" height="30" relative="1" as="geometry">
+            <mxPoint x="10" y="-75.79" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-66" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;fontSize=12;fontColor=#666666;align=left;spacingLeft=0;resizeWidth=1;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-56">
+          <mxGeometry y="1" width="110.8695652173913" height="20" relative="1" as="geometry">
+            <mxPoint x="10" y="-70" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-90" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="780" y="110" width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-40" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-90">
+          <mxGeometry width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-42" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;strokeColor=#999999;fillColor=#ffffff;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-90">
+          <mxGeometry x="20" y="80" width="155" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-43" value="&lt;br&gt;Device needs to be &lt;br&gt;connected to Wifi.&lt;br&gt;Select the network&lt;br&gt;to be Used" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;strokeColor=#999999;fontColor=#008cff;fontSize=17;fillColor=#ffffff;resizeWidth=1;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-42">
+          <mxGeometry width="155" height="30" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-44" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;fontSize=17;fontColor=#666666;align=left;spacingLeft=5;resizeWidth=1;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-42">
+          <mxGeometry width="155" height="20" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-45" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;fontSize=17;fontColor=#666666;align=left;spacingLeft=5;resizeWidth=1;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-42">
+          <mxGeometry width="155" height="20" relative="1" as="geometry">
+            <mxPoint y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-46" value="My Wifi 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fontSize=17;fontColor=#666666;align=left;spacingLeft=5;fillColor=#ddeeff;strokeColor=none;resizeWidth=1;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-42">
+          <mxGeometry width="155" height="20" relative="1" as="geometry">
+            <mxPoint y="70" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-47" value="My Wifi 2" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;fontSize=17;fontColor=#666666;align=left;spacingLeft=5;resizeWidth=1;" vertex="1" parent="2b-c2Vr7NQMeBaJu338B-42">
+          <mxGeometry width="155" height="20" relative="1" as="geometry">
+            <mxPoint y="90" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-91" value="Give a name for your smart garage door opener" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-107" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="550" width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-108" value="Garage 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="620" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-111" value="Activate" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="660" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-112" value="Garage Door Open for 5 minutes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="740" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2b-c2Vr7NQMeBaJu338B-113" value="Garage Door Closed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="800" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
