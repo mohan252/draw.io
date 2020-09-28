@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-28T19:58:20.992Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="XUpS6wHV3_YwRF7Y8N23" version="13.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-28T20:05:21.041Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="BopJskFvPNWcsrAgLiZY" version="13.7.1" type="github">
   <diagram id="PAPlShL07tjEwFY9S_xJ" name="Page-1">
     <mxGraphModel dx="1006" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -8,10 +8,15 @@
           <mxGeometry x="610" y="110" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A4MPmSQR0KuoXJ--hPRJ-3" value="Is &lt;br&gt;Calculated CRC same as build time CRC?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="590" y="210" width="190" height="110" as="geometry" />
+          <mxGeometry x="590" y="215" width="190" height="110" as="geometry" />
         </mxCell>
         <mxCell id="A4MPmSQR0KuoXJ--hPRJ-4" value="Invoke Checksum validation code with good and bad run time cases" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="575" y="380" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X1A2oStUgml4vtbZHU4v-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="A4MPmSQR0KuoXJ--hPRJ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="545" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="A4MPmSQR0KuoXJ--hPRJ-5" value="Are test cases pass?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="490" width="190" height="110" as="geometry" />
@@ -46,21 +51,12 @@
         <mxCell id="A4MPmSQR0KuoXJ--hPRJ-15" value="Display Error in EDV" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="940" y="850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="A4MPmSQR0KuoXJ--hPRJ-17" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="A4MPmSQR0KuoXJ--hPRJ-5" target="A4MPmSQR0KuoXJ--hPRJ-15" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="790" y="825" as="sourcePoint" />
-            <mxPoint x="955" y="825" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1005" y="545" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="A4MPmSQR0KuoXJ--hPRJ-18" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="A4MPmSQR0KuoXJ--hPRJ-3" edge="1">
+        <mxCell id="A4MPmSQR0KuoXJ--hPRJ-18" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="A4MPmSQR0KuoXJ--hPRJ-3" edge="1" target="A4MPmSQR0KuoXJ--hPRJ-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="790" y="555" as="sourcePoint" />
             <mxPoint x="1005" y="550" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1005" y="265" />
+              <mxPoint x="1000" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -128,43 +124,28 @@
         <mxCell id="WPghRa1qiMPhUWY-g01Q-16" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="806" y="1220" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WPghRa1qiMPhUWY-g01Q-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WPghRa1qiMPhUWY-g01Q-18" target="WPghRa1qiMPhUWY-g01Q-20" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WPghRa1qiMPhUWY-g01Q-18" value="Extract MC_ATTRIBUTES&lt;br&gt;Data block" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="165" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="WPghRa1qiMPhUWY-g01Q-19" value="&lt;font color=&quot;#330000&quot;&gt;Extract&amp;nbsp;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;ECU_Serial_Number&lt;/span&gt;&lt;br&gt;from ECU_STATISTICS&lt;br&gt;Data block&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="515" width="210" height="90" as="geometry" />
+          <mxGeometry x="130" y="250" width="210" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="WPghRa1qiMPhUWY-g01Q-20" value="Extract record count from MC_ATTRIBUTES&lt;br&gt;Data block" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="165" y="255" width="120" height="60" as="geometry" />
+        <mxCell id="WPghRa1qiMPhUWY-g01Q-21" value="Extract FILE_NAME from tar ball" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="120" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WPghRa1qiMPhUWY-g01Q-21" value="Extract&amp;nbsp;FILE_DATE_AND_TIME&lt;br&gt;from&amp;nbsp;FILE_DATE_AND_TIME&lt;br&gt;Data block" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="385" width="190" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WPghRa1qiMPhUWY-g01Q-22" value="Store ECU_SERIAL_NUMBER&lt;br&gt;FILE_DATE_AND_TIME&lt;br&gt;RECORD_COUNT&lt;br&gt;MCID_BLOB&lt;br&gt;in MCID_RECORDS_BLOB&lt;br&gt;table" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="665" width="190" height="90" as="geometry" />
+        <mxCell id="WPghRa1qiMPhUWY-g01Q-22" value="Store ECU_SERIAL_NUMBER&lt;br&gt;FILE_NAME&lt;br&gt;RAW_FILE_DATA&lt;br&gt;in ECFR_RAW_DATA&lt;br&gt;table" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="400" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="WPghRa1qiMPhUWY-g01Q-26" value="Match ECU_SERIAL_NUMBER, FILE_NAME from RAW_ECFR_DATA table with&lt;br&gt;data in HTF database to retrieve the matching MC_ATTRIBUTES records" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;flipH=1;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="1070" width="250" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="WPghRa1qiMPhUWY-g01Q-28" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WPghRa1qiMPhUWY-g01Q-20" target="WPghRa1qiMPhUWY-g01Q-21" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="695" y="105" as="sourcePoint" />
-            <mxPoint x="695" y="145" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="WPghRa1qiMPhUWY-g01Q-29" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WPghRa1qiMPhUWY-g01Q-21" target="WPghRa1qiMPhUWY-g01Q-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="235" y="325" as="sourcePoint" />
-            <mxPoint x="220" y="495" as="targetPoint" />
+            <mxPoint x="245" y="60" as="sourcePoint" />
+            <mxPoint x="230" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WPghRa1qiMPhUWY-g01Q-30" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WPghRa1qiMPhUWY-g01Q-19" target="WPghRa1qiMPhUWY-g01Q-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="235" y="455" as="sourcePoint" />
-            <mxPoint x="235" y="525" as="targetPoint" />
+            <mxPoint x="245" y="190" as="sourcePoint" />
+            <mxPoint x="245" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WPghRa1qiMPhUWY-g01Q-31" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Flowchart to store MCID blocks&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -173,11 +154,11 @@
         <mxCell id="WPghRa1qiMPhUWY-g01Q-32" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Flowchart for MCID Validation Service&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="560" y="50" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WPghRa1qiMPhUWY-g01Q-33" value="&lt;font color=&quot;#ff0000&quot;&gt;primary key: &lt;/font&gt;ECU_SERIAL_NUMBER&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;primary key:&amp;nbsp;&lt;/font&gt;FILE_DATE_AND_TIME&lt;br&gt;RECORD_COUNT&lt;br&gt;MCID_BLOB" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;" parent="1" vertex="1">
-          <mxGeometry x="60" y="970" width="260" height="90" as="geometry" />
+        <mxCell id="WPghRa1qiMPhUWY-g01Q-33" value="&lt;font color=&quot;#ff0000&quot;&gt;primary key: &lt;/font&gt;ECU_SERIAL_NUMBER&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;primary key:&amp;nbsp;&lt;/font&gt;FILE_NAME&lt;br&gt;RAW_FILE_DATA" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;" parent="1" vertex="1">
+          <mxGeometry x="110" y="610" width="260" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="WPghRa1qiMPhUWY-g01Q-34" value="&lt;font style=&quot;font-size: 24px&quot;&gt;MCID_RECORDS_BLOB table schema&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="80" y="920" width="230" height="20" as="geometry" />
+        <mxCell id="WPghRa1qiMPhUWY-g01Q-34" value="&lt;font style=&quot;font-size: 24px&quot;&gt;RAW_ECFR_DATA table schema&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="560" width="230" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WPghRa1qiMPhUWY-g01Q-5" value="Does the calculated crc match&lt;br&gt;the cumulative CRC &lt;br&gt;present in ECFR File" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="810" width="250" height="140" as="geometry" />
