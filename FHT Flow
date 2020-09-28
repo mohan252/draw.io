@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-28T19:33:48.853Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="Pb4_XJPbKF3GQz83qvat" version="13.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-28T19:43:41.715Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="FWWkB0vTGPHtMUS7wsBZ" version="13.7.1" type="github">
   <diagram id="PAPlShL07tjEwFY9S_xJ" name="Page-1">
     <mxGraphModel dx="1006" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -88,7 +88,7 @@
         <mxCell id="WPghRa1qiMPhUWY-g01Q-1" value="Calculate Cumulative CRC reusing code from ECFR Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="566" y="640" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WPghRa1qiMPhUWY-g01Q-4" value="Pull MCID values from the blob" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="WPghRa1qiMPhUWY-g01Q-4" value="Pull MCID values from the ECFR File" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="626" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WPghRa1qiMPhUWY-g01Q-5" value="Does the calculated crc match the cumulative CRC present in ECFR File" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -157,7 +157,7 @@
         <mxCell id="WPghRa1qiMPhUWY-g01Q-22" value="Store ECU_SERIAL_NUMBER&lt;br&gt;FILE_DATE_AND_TIME&lt;br&gt;RECORD_COUNT&lt;br&gt;MCID_BLOB&lt;br&gt;in MCID_RECORDS_BLOB&lt;br&gt;table" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="665" width="190" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="WPghRa1qiMPhUWY-g01Q-26" value="Match ECU_SERIAL_NUMBER, FILE_DATE_AND_TIME from MCID_RECORDS_BLOB table with&lt;br&gt;data in HTF database to retrieve the matching MC_ATTRIBUTES records" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;flipH=1;rotation=0;" parent="1" vertex="1">
+        <mxCell id="WPghRa1qiMPhUWY-g01Q-26" value="Match ECU_SERIAL_NUMBER, FILE_NAME from RAW_ECFR_DATA table with&lt;br&gt;data in HTF database to retrieve the matching MC_ATTRIBUTES records" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;flipH=1;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="1190" width="250" height="130" as="geometry" />
         </mxCell>
         <mxCell id="WPghRa1qiMPhUWY-g01Q-28" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WPghRa1qiMPhUWY-g01Q-20" target="WPghRa1qiMPhUWY-g01Q-21" edge="1">
